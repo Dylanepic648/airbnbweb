@@ -204,3 +204,11 @@ body .footer
     background-color: gray;
     justify-content: flex-start;
 }
+.option2-box p
+{
+    margin-left: 2%;
+}
+h3, h2
+{
+    margin-left: 1%;
+}
