@@ -18,8 +18,8 @@ body .header
 /** nav styles **/
 .nav
 {
-    margin: 1% 0% 1% 0%;
-    padding: 0%;
+    margin: 1% 0% 3% 0%;
+    padding: 0.5%;
     background-color: purple;
     width: auto;
     display: flex;
@@ -111,8 +111,8 @@ body .header
 /**search styles **/
 .search
 {
-    margin: 0%;
-    padding: 1% 0% 0% 0%;
+    margin: 0% 0% 3% 0%;
+    padding: 0.5%;
     width: 50%;
     display: flex;
     background-color: cyan;
@@ -123,7 +123,7 @@ body .header
 {
     width: 100%;
     margin: 0%;
-    padding: 0%;
+    padding: 2% 0%;
     display: flex;
     list-style: none;
     align-items: center;
@@ -151,10 +151,26 @@ body .content
     padding: 0%;
     width: auto;
     display: flex;
-    background-color: blue;
+    background-color: purple;
     flex-direction: column;
 }
 .options
 {
-    
+    margin: 0%;
+    padding: 1%;
+    width: auto;
+    display: flex;
+    background-color: cyan;
+    align-self: center;
+}
+.options .option-box
+{
+    width: 100%;
+    margin: 1%;
+    padding: 8% 3%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: orange;
+    justify-content: center;
 }
