@@ -195,7 +195,7 @@ body .footer
 }
 .options2 .option2-box
 {
-    width: 100%;
+    width: 10%;
     margin: 0%;
     padding: 0% 0%;
     display: flex;
@@ -211,4 +211,29 @@ body .footer
 h3, h2
 {
     margin-left: 1%;
+}
+
+.options3
+{
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    display: flex;
+    background-color: cyan;
+    align-self: center;
+}
+.options3 .option3-box
+{
+    width: 100%;
+    margin: 0%;
+    padding: 0% 0%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: gray;
+    justify-content: flex-start;
+}
+.option3-box p
+{
+    margin-left: 2%;
 }
