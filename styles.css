@@ -174,3 +174,33 @@ body .content
     background-color: orange;
     justify-content: center;
 }
+/**footer styles**/
+body .footer
+{
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    display: flex;
+    background-color: green;
+    flex-direction: column;
+}
+.options2
+{
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    display: flex;
+    background-color: cyan;
+    align-self: center;
+}
+.options2 .option2-box
+{
+    width: 100%;
+    margin: 0%;
+    padding: 0% 0%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: gray;
+    justify-content: flex-start;
+}
