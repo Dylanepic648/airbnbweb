@@ -1,20 +1,160 @@
 body
 {
+    margin: 0%;
+    padding: 0%;
     display: flex;
+    flex-direction: column;
 }
-.header
+/** Header Styles **/
+body .header
 {
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    display: flex;
     background-color: blue;
+    flex-direction: column;
 }
+/** nav styles **/
 .nav
 {
-    background-color: yellow;
-}
-.nav-options
-{
+    margin: 1% 0% 1% 0%;
+    padding: 0%;
     background-color: purple;
+    width: auto;
+    display: flex;
+    justify-content: space-around,stretch;
 }
-li
+.nav .logo
 {
-    list-style-type: none;
+    width: auto;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    background-color: red
+}
+.nav .alojamientos
+{
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    background-color: yellow;
+    justify-content: end;
+}
+.nav .experriencias
+{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    background-color: green;
+    justify-content: center;
+}
+.nav .servicios
+{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    background-color: pink;
+}
+.nav .anfitrion
+{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    background-color: brown;
+    justify-content: flex-end;
+}
+.nav .webicon
+{
+    width: auto;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+}
+.nav .menuicon
+{
+    width: auto;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    background-color: orange;
+    justify-content: flex-start;
+}
+.nav li
+{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav p
+{
+    margin: 0% 3%;
+    padding: 0%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: auto;
+}
+.airbnblogo
+{
+    margin: 0%;
+    padding: 0px 10px;
+    width: 8vh;
+    height: 7vh;
+    display: flex;
+}
+/**search styles **/
+.search
+{
+    margin: 0%;
+    padding: 1% 0% 0% 0%;
+    width: 50%;
+    display: flex;
+    background-color: cyan;
+    align-self: center;
+    justify-content: space-around;
+}
+.search .search-box
+{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: orange;
+    justify-content: flex-start;
+}
+.search .iconsearch
+{
+    justify-content: flex-end;
+    background-color: blueviolet;
+    width: auto;
+}
+
+.search p
+{
+    margin: 0% 0% 0% 1%;
+    padding: 0%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: auto;
+}
+/**content style**/
+body .content
+{
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+}
+.options
+{
+    
 }
