@@ -5,50 +5,48 @@ body
     display: flex;
     flex-direction: column;
 }
-/** Header Styles **/
+/**Header**/
 body .header
 {
     margin: 0%;
     padding: 0%;
     width: auto;
     display: flex;
-    background-color: blue;
     flex-direction: column;
+    background-color: rgb(238, 238, 238);
 }
-/** nav styles **/
+/**nav**/
 .nav
 {
     margin: 1% 0% 3% 0%;
     padding: 0.5%;
-    background-color: purple;
-    width: auto;
     display: flex;
-    justify-content: space-around,stretch;
 }
 .nav .logo
 {
-    width: auto;
+    width: 20%;
     margin: 0%;
     padding: 0%;
-    display: flex;
-    background-color: red
+    align-content: center;
+    margin: 1%;
 }
 .nav .alojamientos
 {
     width: 100%;
-    padding: 0%;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
     display: flex;
-    background-color: yellow;
     justify-content: end;
+    justify-self: center;
 }
 .nav .experriencias
 {
-    width: 100%;
+    width: auto;
     margin: 0%;
     padding: 0%;
     display: flex;
-    background-color: green;
     justify-content: center;
+    justify-self: center;
 }
 .nav .servicios
 {
@@ -56,16 +54,17 @@ body .header
     margin: 0%;
     padding: 0%;
     display: flex;
-    background-color: pink;
+    justify-content: start;
+    justify-self: center;
 }
 .nav .anfitrion
 {
-    width: 100%;
-    margin: 0%;
-    padding: 0%;
     display: flex;
-    background-color: brown;
-    justify-content: flex-end;
+    width: 70%;
+    margin: 0%;
+    padding: 0% 0%;
+    display: flex;
+    justify-content: start;
 }
 .nav .webicon
 {
@@ -73,7 +72,6 @@ body .header
     margin: 0%;
     padding: 0%;
     display: flex;
-    background-color: gray;
     justify-content: center;
 }
 .nav .menuicon
@@ -82,7 +80,6 @@ body .header
     margin: 0%;
     padding: 0%;
     display: flex;
-    background-color: orange;
     justify-content: flex-start;
 }
 .nav li
@@ -95,63 +92,90 @@ body .header
 }
 .nav p
 {
-    margin: 0% 3%;
+    margin: 0% 0%;
     padding: 0%;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: auto;
+    font-weight: 1000;
+}
+.nav .centro p
+{
+    margin: 0% 30%;
 }
 .airbnblogo
 {
     margin: 0%;
-    padding: 0px 10px;
-    width: 8vh;
+    padding: 0% 0%;
+    width: auto;
     height: 7vh;
     display: flex;
+    align-self: center;
 }
-/**search styles **/
+.webicon
+{
+    margin: 0%;
+    padding: 0% 15%;
+    align-self: center;
+    width: 3vh;
+    height: 3vh;
+}
+.menuicon
+{
+    margin: 0%;
+    padding: 0% 15%;
+    align-self: center;
+    width: 3vh;
+    height: 3vh;
+}
+/**search**/
 .search
 {
+    width: 100vh;
+    height: 10vh;
     margin: 0% 0% 3% 0%;
-    padding: 0.5%;
-    width: 50%;
+    padding: 0%;
+    background-color: rgb(255, 255, 255);
     display: flex;
-    background-color: cyan;
     align-self: center;
-    justify-content: space-around;
+    border-radius: 10vh;
 }
 .search .search-box
 {
-    width: 100%;
-    margin: 0%;
-    padding: 2% 0%;
+    margin: 0% 8%;
+    padding: 0% 0% 0% 0%;
     display: flex;
     list-style: none;
     align-items: center;
-    background-color: orange;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .search .iconsearch
 {
-    justify-content: flex-end;
-    background-color: blueviolet;
-    width: auto;
+    margin: 0% 0% 0% 19vh;
+    padding: 0% 0% 0% 0%;
+    justify-content: center;
+    align-content: center;
+    width: 7vh;
+    height: 7vh;
+    background-color: rgb(255, 56, 92);
+    border-radius: 5vh;
+    align-self: center;
+    justify-self: end;
 }
-
 .search p
 {
-    margin: 0% 0% 0% 1%;
+    margin: 0% 0% 0% 0%;
     padding: 0%;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vh;
+    font-weight: 1000;
 }
-/**content style**/
+/**content**/
 body .content
 {
     margin: 0%;
-    padding: 0%;
+    padding: 2% 0%;
     width: auto;
     display: flex;
-    background-color: purple;
     flex-direction: column;
 }
 .options
@@ -160,53 +184,105 @@ body .content
     padding: 1%;
     width: auto;
     display: flex;
-    background-color: cyan;
     align-self: center;
 }
 .options .option-box
 {
-    width: 100%;
     margin: 1%;
-    padding: 8% 3%;
-    display: flex;
+    padding: 0% 0%;
     list-style: none;
     align-items: center;
-    background-color: orange;
     justify-content: center;
+    flex-direction: column;
 }
-/**footer styles**/
+.option-box .image-box
+{
+    border-radius: 2vh;
+}
+.image-box .rooms
+{
+    width: 100%;
+    height: 30vh;   
+    border-radius: 2vh;
+}
+.text-box
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.text-box p
+{
+    margin: 0;
+    padding: 0;
+}
+.text-box .info
+{
+    color: gray;
+}
+.option-box p
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: auto;
+    font-weight: 1000;
+}
+.option-box h1,h2,h3,h4
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: auto;
+    font-weight: 1000;
+}
+h3
+{
+    display: flex;
+}
+.masicon
+{
+    margin: 0.2vh 0vh 0vh 0vh;
+    width: 4vh;
+    height: 4vh;
+}
+/**footer**/
 body .footer
 {
     margin: 0%;
-    padding: 0%;
+    padding: 2% 0% 0% 0%;
     width: auto;
     display: flex;
-    background-color: green;
     flex-direction: column;
+    background-color: rgb(238, 238, 238);
+}
+.footer h1,h2,h3,h4
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: auto;
+    font-weight: 1000;
 }
 .options2
 {
-    margin: 0%;
+    margin: 0% 2%;
     padding: 0%;
     width: auto;
     display: flex;
-    background-color: cyan;
     align-self: center;
 }
 .options2 .option2-box
 {
     width: 10%;
-    margin: 0%;
+    margin: 0% 2%;
     padding: 0% 0%;
     display: flex;
     list-style: none;
     align-items: center;
-    background-color: gray;
     justify-content: flex-start;
 }
 .option2-box p
 {
     margin-left: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: auto;
+    font-weight: 1000;
 }
 h3, h2
 {
@@ -219,21 +295,56 @@ h3, h2
     padding: 0%;
     width: auto;
     display: flex;
-    background-color: cyan;
     align-self: center;
 }
 .options3 .option3-box
 {
-    width: 100%;
-    margin: 0%;
+    width: auto;
     padding: 0% 0%;
     display: flex;
     list-style: none;
-    align-items: center;
-    background-color: gray;
     justify-content: flex-start;
 }
 .option3-box p
 {
-    margin-left: 2%;
+    margin: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: auto;
+    font-weight: 1000;
+}
+.lugares
+{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+}
+.lugares .lpartes
+{
+    display: flex;
+    list-style: none;
+}
+.lpartes li
+{
+    margin: 0% 2%;
+}
+hr
+{
+    color: black;
+    width: 95%;
+}
+.lpartes .info
+{
+    color: gray;
+}
+.lpartes p
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: auto;
+    font-weight: 1000;
+}
+.masicon2
+{
+    transform: rotate(90deg);
+    align-self: center;
 }
