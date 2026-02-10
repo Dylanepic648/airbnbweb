@@ -13,7 +13,7 @@ body .header
     width: auto;
     display: flex;
     flex-direction: column;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(243, 243, 243);
 }
 /**nav**/
 .nav
@@ -30,32 +30,42 @@ body .header
     align-content: center;
     margin: 1%;
 }
+.nav .logo2
+{
+    margin: 0%;
+    padding: 0%;
+    align-content: center;
+    justify-content: center;
+}
 .nav .alojamientos
 {
     width: 100%;
-    padding: 0% 0% 0% 0%;
-    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 10%;
+    margin: 0% 2%;
     display: flex;
-    justify-content: end;
-    justify-self: center;
+    align-items: center;
+    gap: 0vh;  
+    justify-content: flex-end;
 }
 .nav .experriencias
 {
     width: auto;
-    margin: 0%;
+    margin: 0% 2%;
     padding: 0%;
     display: flex;
-    justify-content: center;
-    justify-self: center;
+    align-items: center;
+    gap: 0vh;  
 }
 .nav .servicios
 {
     width: 100%;
-    margin: 0%;
+    margin: 0% 2%;
     padding: 0%;
     display: flex;
     justify-content: start;
     justify-self: center;
+    align-items: center;
+    gap: 0vh;  
 }
 .nav .anfitrion
 {
@@ -80,7 +90,7 @@ body .header
     margin: 0%;
     padding: 0%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .nav li
 {
@@ -89,6 +99,7 @@ body .header
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: center;
 }
 .nav p
 {
@@ -100,7 +111,7 @@ body .header
 }
 .nav .centro p
 {
-    margin: 0% 30%;
+    margin: 0% 0%;
 }
 .airbnblogo
 {
@@ -114,7 +125,7 @@ body .header
 .webicon
 {
     margin: 0%;
-    padding: 0% 15%;
+    padding: 0% 0%;
     align-self: center;
     width: 3vh;
     height: 3vh;
@@ -122,17 +133,38 @@ body .header
 .menuicon
 {
     margin: 0%;
-    padding: 0% 15%;
+    padding: 0% 0%;
     align-self: center;
     width: 3vh;
     height: 3vh;
+}
+.hicons
+{
+    width: 5vh;
+    height: 5vh;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+.hicons2
+{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 5vh;
+    height: 5vh;
+}
+.hicons3
+{
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 5vh;
+    height: 5vh;
 }
 /**search**/
 .search
 {
     width: 100vh;
     height: 10vh;
-    margin: 0% 0% 3% 0%;
+    margin: 0% 6% 3% 0%;
     padding: 0%;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -147,6 +179,7 @@ body .header
     list-style: none;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .search .iconsearch
 {
@@ -251,7 +284,7 @@ body .footer
     width: auto;
     display: flex;
     flex-direction: column;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(243, 243, 243);
 }
 .footer h1,h2,h3,h4
 {
@@ -325,7 +358,7 @@ h3, h2
 }
 .lpartes li
 {
-    margin: 0% 6% 0% 2%;
+    margin: 0% 6% 0% 0%;
 }
 hr
 {
@@ -372,23 +405,27 @@ hr
 .footer .footer-part3
 {
     width: 100%;
-    margin: 0%;
+    margin: 2% 0% 0% 0%;
     padding: 0%;
     display: flex;
     justify-content: space-around;
 }
 .footer-part3 .contact
 {
+    margin: 0% 0% 0% 0%;
+    padding: 0%;
+    width: 100%;
+    justify-content: space-around;
     display: flex;
     list-style: none;
 }
 .contact li
 {
-    margin: 2%;
+    margin: 0%;
 }
 .contact li p
 {
-    margin: 2%;
+    margin: 0%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: auto;
     font-weight: 1000;
