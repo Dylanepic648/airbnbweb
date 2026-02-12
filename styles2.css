@@ -9,7 +9,7 @@ body
     padding: 5px 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+/**header**/
 header
 {
     width: 100%;
@@ -32,14 +32,16 @@ header .navegacion-principal
     width: 40%;
     height: 100%;
     padding: 0 10px;
-    background-color: cornflowerblue;
 }
 
 header .login
 {
     width: 30%;
     height: 100%;
-    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5em;
 }
 
 
@@ -50,4 +52,110 @@ header .navegacion-principal ul
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+header .navegacion-principal ul li
+{
+    display: flex;
+    padding-bottom: 7px;
+    align-items: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+header .navegacion-principal ul li:hover
+{
+    transition: all 0.2s ease;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+header .navegacion-principal .nav-icon
+{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+}
+
+.navegacion-principal .alojamiento-img
+{
+    background-image: url(./images/icons/NoAirBNBLogoCasa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navegacion-principal .experiencias-img
+{
+    background-image: url(./images/icons/NoAirBNBLogoGlobo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navegacion-principal .servicios-img
+{
+    background-image: url(./images/icons/NoAirBNBLogoRing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .login-icon
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+header .login .login-bg-icon
+{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239, 239, 239);
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+header .login .login-bg-icon:hover
+{
+    width: 45px;
+    height: 45px;
+}
+
+header .login .globo-img
+{
+    background-image: url(./images/icons/web.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .login .menu-img
+{
+    background-image: url(./images/icons/menuicon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .login a
+{
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+    transition: all 0.4s ease;
+}
+
+header .login a:hover
+{
+    background-color: rgb(239, 239, 239);
+    transition: all 0.4s ease;
 }
