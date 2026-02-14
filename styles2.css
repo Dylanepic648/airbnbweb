@@ -14,7 +14,7 @@ body
 header
 {
     width: 100%;
-    height: 100px;
+    height: 80px;
     padding: 0px 20px;
     display: flex;
     background-color: rgb(240, 240, 240);
@@ -34,7 +34,7 @@ header .navegacion-principal
 {
     width: 40%;
     height: 100%;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 header .login
@@ -62,7 +62,7 @@ header .navegacion-principal ul li
     display: flex;
     padding-bottom: 7px;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 1em;
     cursor: pointer;
     transition: all 0.2s ease;
 }
@@ -79,6 +79,7 @@ header .navegacion-principal .nav-icon
     display: inline-block;
     width: 35px;
     height: 35px;
+    margin: 0px 8px;
 }
 
 .navegacion-principal .alojamiento-img
@@ -116,7 +117,7 @@ header .login .login-bg-icon
     height: 40px;
     align-items: center;
     justify-content: center;
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(229, 229, 229);
     cursor: pointer;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -152,21 +153,21 @@ header .login a
     border-radius: 20px;
     text-align: center;
     line-height: 30px;
-    background-color: white;
     transition: all 0.4s ease;
 }
 
 header .login a:hover
 {
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(229, 229, 229);
     transition: all 0.4s ease;
 }
-/** buscador**/
+/**Buscador**/
 
 .buscador
 {
     width: 100%;
-    height: 80px;
+    height: 100px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,10 +176,10 @@ header .login a:hover
 
 .buscador .buscador-container
 {
-    width: 55%;
-    height: 50px;
-    padding: 0px 5px;
-    border-radius: 25px;
+    width: 50%;
+    height: 65px;
+    padding: 5px 10px;
+    border-radius: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -199,8 +200,8 @@ header .login a:hover
 
 .buscador .buscador-button
 {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     background-color: red;
     border-radius: 50%;
     font-size: 1.2em;
@@ -213,7 +214,7 @@ header .login a:hover
 }
 .buscador .buscador-input p
 {
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: bold;
 }
 .buscador .buscador-input input
@@ -244,4 +245,111 @@ header .login a:hover
     background-color: rgb(229, 229, 229);
     position: absolute;
     left: 39%;
+}
+
+/**Contenido**/
+
+.resultados
+{
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultados .resultados-seccion
+{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultados  .resultados-seccion h2
+{
+    height: 30px;
+    padding-top: 10px;
+    font-size: 1em;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+
+.resultados .resultados-lista
+{
+    width: 100%;
+    height: 290px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.resultados .resultados-lista .resultado
+{
+    width: 200px;
+    height: 260px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.resultados .resultados-lista .resultado .sitio-thumbnail
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-image: url(./images/fotos/Casa01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.resultados .resultados-lista .resultado .sitio-mensaje
+{
+    width: 120px;
+    height: 40px;
+    padding-left: 8px;
+    position: relative;
+    background-color: rgb(242, 242, 242);
+    left: 10px;
+    top: 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.resultados .resultados-lista .resultado .sitio-descripcion
+{
+    width: 100%;
+    height: 50px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resultados .resultados-lista .resultado .sitio-descripcion h4
+{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.resultados .resultados-lista .resultado .sitio-descripcion .sitio-fechas
+{
+    font-size: 0.7em;
+    color: gray;
+}
+
+.resultados .resultados-lista .resultado .sitio-descripcion .sitio-precio
+{
+    font-size: 0.7em;
+    color: gray;
 }
